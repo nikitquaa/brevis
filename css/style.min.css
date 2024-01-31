@@ -2513,10 +2513,8 @@ ul {
 }
 
 .page {
-  padding: 20px;
-  background-color: #fdfaf7;
+  background-color: #fff;
   color: #785e3a;
-  border: solid 1px #c2b5a3;
   overflow: hidden;
 }
 .page .page-content {
@@ -2550,10 +2548,7 @@ ul {
   border-top: solid 1px #f4e8d7;
 }
 .page .page-content .page-footer {
-  height: 30px;
-  border-top: solid 1px #f4e8d7;
-  font-size: 80%;
-  color: #998466;
+  
 }
 .page.--left {
   border-right: 0;
@@ -2587,8 +2582,20 @@ ul {
   box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
 }
 
+.stf__block {
+  background: #fff;
+}
 
+.page.--left {
+  padding-right: 40px;
+}
+.page.--right {
+  padding-left: 40px;
+}
 
+.flip-book {
+  transform: perspective(700px) rotateX(30deg) !important;
+}
 
 @media screen and (max-width:1900px) {
   .stages__images img {
