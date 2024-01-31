@@ -1359,7 +1359,8 @@ ul {
 }
 
 .book__wrap {
-  margin-top: 60px
+  margin-top: 60px;
+  padding: 30px;
 }
 
 .connection {
@@ -2594,7 +2595,7 @@ ul {
 }
 
 .flip-book {
-  transform: perspective(700px) rotateX(30deg) !important;
+  transform: perspective(1500px) rotateX(30deg) !important;
 }
 
 @media screen and (max-width:1900px) {
